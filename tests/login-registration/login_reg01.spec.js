@@ -25,6 +25,7 @@ test('Verify login form filled', async ({ page }) => {
   //await loginFlightRegPage.clickSendImmediatelyButton();
   await page.pause();
 
+
     
           
 });

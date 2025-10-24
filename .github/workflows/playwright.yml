@@ -33,7 +33,7 @@ jobs:
 
       # 5. Run Playwright tests
       - name: Run Playwright tests
-        run: xvfb-run --auto-servernum -- npx playwright test
+        run: npx playwright test
 
       # 6. Upload HTML test report (optional but useful)
         # even if tests fail, report is saved
