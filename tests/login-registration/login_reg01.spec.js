@@ -23,7 +23,7 @@ test('Verify login form filled', async ({ page }) => {
   await loginFlightRegPage.loginAgreesToTermsAndConditions();
 
   //await loginFlightRegPage.clickSendImmediatelyButton();
-  await page.pause();
+  //await page.pause();
 
 
     

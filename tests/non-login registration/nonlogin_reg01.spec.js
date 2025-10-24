@@ -38,7 +38,7 @@ test('Verify non-login form filled', async ({ page }) => {
 
   await nonLoginFlightRegPage.closePopup();
   
-  await nonLoginPostRegPage.verifySubmittedInfo(NonLoginFlightRegData.fullNameInfo);
+  await nonLoginPostRegPage.verifySubmittedInfo(FlightRegData.fullNameInfo);
 
 
 });
