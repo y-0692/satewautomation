@@ -7,7 +7,7 @@ module.exports = defineConfig({
   timeout: 30000, // Test timeout in ms
   retries: 0, // Number of retries on failure
   use: {
-    headless: false, // Run tests in headless mode
+    headless: true, // Run tests in headless mode
     baseURL: 'https://satew.dev.onifytech.net', // Change to your app’s URL
     //baseURL : 'https://web.uat.satew.com',
     screenshot: 'only-on-failure',
