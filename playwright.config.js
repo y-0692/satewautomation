@@ -13,11 +13,7 @@ module.exports = defineConfig({
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     slowMo: 5000000000000, // Slow down by 500ms
-  projects: [
-    { name: 'chromium', use: { browserName: 'chromium' } },
-    { name: 'firefox',  use: { browserName: 'firefox' } },
-    { name: 'webkit',   use: { browserName: 'webkit' } }
-  ],
+  
   },
   reporter: [['list'], ['html', { outputFolder: 'test-results' }]],
 });
